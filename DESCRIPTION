@@ -1,0 +1,10 @@
+Package: rgmpl
+Type: Package
+Title: Helps solving in R linear programming models specified in GMPL
+Version: 0.04
+Date: 2012-11-25
+Author: Sebastian Kranz
+Maintainer: Sebastian Kranz <sebastian.kranz@uni-ulm.com>
+Description: Tools that help to solve linear programming models specified in GMPL
+License: GPL (>= 2)
+Depends: stringr, glpkAPI
