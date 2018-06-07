@@ -8,3 +8,4 @@ Maintainer: Sebastian Kranz <sebastian.kranz@uni-ulm.com>
 Description: Tools that help to solve linear programming models specified in GMPL
 License: GPL (>= 2)
 Depends: stringr, glpkAPI
+RoxygenNote: 6.0.1
