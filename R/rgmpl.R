@@ -185,7 +185,7 @@ gmpl.make.dat.file =  function(sets=NULL,param=NULL,mod.file,dat.file=NULL, help
       p = param[[i]]
       pn = names(param)[[i]]
       set.names = mi$param.sets[[pn]]
-      pset = if (!is.na(set.names)) {
+      pset = if (!all(is.na(set.names))) {
         lapply(set.names, function(set.name) {
           if (set.name %in% names(sets)) return(sets[[set.name]])
           if (set.name %in% names(helper.sets)) return(helper.sets[[set.name]])
